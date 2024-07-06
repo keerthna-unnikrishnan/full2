@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h2>FORM VALIDATION</h2>
+    <style>
+        .error{
+            color: rgb(238, 7, 53);
+            font-size: x-small;
+        }
+    </style>
+
+    <form id="myform">
+        <br><br><br>
+        <label for="email">Email</label>
+ <input type="text" id="email" name="email">
+    <span  id="emailerror" class="error"></span>
+    <br><br><br>
+
+   <label for="password">password</label>
+    <input type="password" id="password" name="password">
+    <span id="passworderror" class="error"></span>
+    <br><br><br>
+
+    <label for="phone">phone number</label>
+    <input type="number" id="phone" name="phonenumber">
+    <span id="phoneerror" class="error"></span>
+    <br><br><br>
+    <input type="submit" value="submit">
+    <script src="script.js"></script>
+</body>
+</html>
